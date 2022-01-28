@@ -36,4 +36,20 @@ public class Calculadora {
         return result = getN1() + getN2();
     }
 
+    public int sub() {
+        return result = getN1() - getN2();
+    }
+
+    public int mult() {
+        return result = getN1() * getN2();
+    }
+
+    public int div() {
+        int n1 = getN1();
+        int n2 = getN2();
+        do {
+            n2 = getN2();
+        } while (n2 == 0);
+        return result = getN1() - getN2();
+    }
 }
