@@ -8,6 +8,6 @@ public class Teste {
     static Calculadora calc = new Calculadora();
 
     public static void main(String[] args) {
-        JOptionPane.showMessageDialog(null, "Resultado adição: " + calc.adicao());
+        JOptionPane.showMessageDialog(null, "Resultado: " + calc.opcao());
     }
 }
