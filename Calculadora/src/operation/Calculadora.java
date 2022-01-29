@@ -6,8 +6,7 @@ public class Calculadora {
     private int n1;
     private int n2;
     private int op;
-    private int result;
-
+    
     public int getN1() {
         return n1 = Integer.parseInt(JOptionPane.showInputDialog("Insira o primeiro valor"));
     }
@@ -33,15 +32,15 @@ public class Calculadora {
     }
 
     public int adicao() {
-        return result = getN1() + getN2();
+        return getN1() + getN2();
     }
 
     public int sub() {
-        return result = getN1() - getN2();
+        return getN1() - getN2();
     }
 
     public int mult() {
-        return result = getN1() * getN2();
+        return getN1() * getN2();
     }
 
     public int div() {
@@ -49,7 +48,7 @@ public class Calculadora {
         do {
             n2 = getN2();
         } while (n2 == 0);
-        return result = n1 / n2;
+        return n1 / n2;
     }
 
     public int opcao() {
